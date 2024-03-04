@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nivo/bump": "^0.84.0",
     "@radix-ui/react-dialog": "^1.0.5",
     "clsx": "^2.1.0",
     "cmdk": "^0.2.1",
