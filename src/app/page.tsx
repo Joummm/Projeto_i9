@@ -1,13 +1,28 @@
-import General from "@/src/components/Cards/general";
+// import General from "@/src/components/Cards/general";
 
-export default function Home() {
+import React from "react";
+//import Sidebar from "../components/Sidebar"; // Importa o componente Sidebar
+import "../styles/styles.css"; // Importa o arquivo de estilos
 
-  return <div>
-    <div className="grid grid-cols-2">
-      <General />
+const Page: React.FC = () => {
+  return (
+    <div>
+      <h1 className="text-sidebar-active">Página</h1>
+      {/* Conteúdo da sua página */}
     </div>
-  </div>
-}
+  );
+};
+
+export default Page;
+
+
+
+// export default function Home() {
+
+//   return <div>
+//     Sidebar
+//   </div>;
+// }
 
 // import Image from "next/image";
 // import variables from '../../styles/variables.module.scss'

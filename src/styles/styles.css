@@ -1,9 +1,3 @@
-// $color-primary: blue;
-
-// .title{
-//     color: $color-primary;
-// }
-
 .text-sidebar-active {
     color: #6b32ec; /* Usando diretamente o valor da cor personalizada definida no Tailwind config */
 }
