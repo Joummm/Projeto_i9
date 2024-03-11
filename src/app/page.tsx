@@ -1,15 +1,15 @@
-import General from "@/src/components/Cards/general";
+// import General from "@/src/components/Cards/general";
 
 export default function Home() {
 
-  return <div>
+  return( 
     <div className="grid grid-cols-2">
-      <General />
+      {/* <General /> */}
+      <p>Home Page</p>
     </div>
   );
 };
 
-export default Page;
 
 
 
