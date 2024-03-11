@@ -1,12 +1,24 @@
+import General from "@/src/components/Cards/general";
 
 export default function Home() {
 
   return <div>
     <div className="grid grid-cols-2">
-     
+      <General />
     </div>
-  </div>
-}
+  );
+};
+
+export default Page;
+
+
+
+// export default function Home() {
+
+//   return <div>
+//     Sidebar
+//   </div>;
+// }
 
 // import Image from "next/image";
 // import variables from '../../styles/variables.module.scss'

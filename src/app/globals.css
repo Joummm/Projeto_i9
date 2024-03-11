@@ -17,6 +17,7 @@
   }
 }
 
+<<<<<<< HEAD
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -36,6 +37,8 @@ body {
   width: 300px;
   /* other styles */
 }
+=======
+>>>>>>> cc065e2156ea236ffd166d30005083e4b90d03d1
 
 
 @layer utilities {
